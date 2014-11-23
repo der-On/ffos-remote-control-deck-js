@@ -1,0 +1,8 @@
+html.break {
+    transition: background 1s;
+    background: #000;
+}
+html.break body {
+    transition: opacity 1s;
+    opacity: 0;
+}

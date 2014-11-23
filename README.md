@@ -4,9 +4,10 @@ Control a deck.js presentation using Firefox-OS remote control.
 
 ## Usage
 
-Include socket.io-clients socket.io.js and ffos-remote-control-deck-js.js
+Include socket.io-clients socket.io.js and ffos-remote-control-deck-js.js and ffos-remote-control-deck-js.css
 
 ```html
+<link rel="stylesheet" href="ffos-remote-control-deck-js.css">
 <script src="socket.io/socket.io.js"></script>
 <script src="ffos-remote-control-deck-js.js"></script>
 ```
