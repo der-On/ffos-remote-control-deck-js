@@ -1,0 +1,11 @@
+{
+  "name": "ffos-remote-control-deck-js",
+  "version": "1.0.0",
+  "description": "Remote control of a deck.js presentation with ffos-remote-control",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ondrej Brinkel <info@anzui.de>",
+  "license": "MIT"
+}
