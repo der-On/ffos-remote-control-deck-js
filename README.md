@@ -15,8 +15,11 @@ Include socket.io-clients socket.io.js and ffos-remote-control-deck-js.js and ff
 Then init it using
 
 ```javascript
-$.deck.ffosRemoteControl();
+$.deck.ffosRemoteControl([host, port]);
 ```
+
+You can specify a host and port. By default those are host = "http://localhost" and port = 9000
+
 
 In the Firefox-OS app add the following events: 'prev', 'next', 'break'
 
