@@ -6,7 +6,7 @@ $(function() {
 
   $.deck.ffosRemoteControl = function(host, port) {
     host = host || 'http://localhost';
-    port = port || 900;
+    port = port || 9000;
     var socket = io(host + ':' + port);
     socket.on('message', function(data) {
       switch(data.name) {
