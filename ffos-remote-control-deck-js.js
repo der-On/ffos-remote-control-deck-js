@@ -24,4 +24,10 @@ $(function() {
       }
     });
   }
+
+  $(window).on('keyup', function(event) {
+    if (event.key === 'b') {
+      toggleBreak();
+    }
+  });
 });
